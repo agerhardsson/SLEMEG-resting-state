@@ -65,6 +65,6 @@ Other than that, no preprocessing has been done.
 
 There are several ways to further preprocess data.
 
-See https://mne.tools/stable/preprocessing.html for further options.
+See [MNE preprocessing](https://mne.tools/stable/preprocessing.html) for further options.
 
 ICA could be a good option to remove artifacts caused by eye blinks and heartbeat.
