@@ -1,12 +1,3 @@
-
----
-title: SLEMEG
-author:
-  - name: Andreas Gerhardsson
-  - email: andreas.gerhardsson@su.se
-date: today
-...
-
 # The SLEMEG Project
 
 ## Data sharing agreement
