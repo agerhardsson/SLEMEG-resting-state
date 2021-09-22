@@ -12,15 +12,17 @@ from glob import glob
 
 # %%
 
-root = os.getcwd()
+root = os.getcwd() # replace raw data path
+datapath = root + '/data-ds-200Hz'
+files = glob(root + '/*rest*_raw.fif')
 
-files = glob(root + '/*_raw.fif')
+os.makedirs(datapath, exist_ok=True)
 
 overwrite = False
 
 for file in files:
     newname = file.replace('_raw', '_ds_raw')
-    newpath = root + '/data-ds-200Hz' + newname[newname.rindex('/'):]
+    newpath = datapath + newname[newname.rindex('/'):]
     if overwrite or not os.path.exists(newpath):
         raw = mne.io.read_raw(file, preload=True)
         raw.resample(200)
