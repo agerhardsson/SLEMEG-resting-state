@@ -13,7 +13,7 @@ By using the data you agree to the following statements:
 
 The overaching aim of this project was to study the effect of partial sleep deprivation on neurophysiological processes using Magnetoencephalography (MEG).
 
-It was a within-subjects design, with participants performing the same tasks twice - once after normal sleep and once after two nights of sleep restricted to 4 hours (01:00-05:00). The measurments were done on NatMEG (www.natmeg.se) at Karolinska Institutet.
+It was a within-subjects design, with participants performing the same tasks twice - once after normal sleep and once after two nights of sleep restricted to 4 hours (01:00-05:00). The measurments were done on [NatMEG](www.natmeg.se) at Karolinska Institutet.
 
 When comming to the lab the participants started by filling out some questionnaires about sleepiness, sleepiness related symptoms and affective state, afterwich they performed a 5 minutes psychomotor vigilance test (PVT).
 
